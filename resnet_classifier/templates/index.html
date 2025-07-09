@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ResNet 菜品识别</title>
+</head>
+<body>
+    <h1>上传菜品图片进行识别</h1>
+
+    {% if message %}
+        <p style="color: green;">✅ {{ message }}</p>
+    {% endif %}
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file"><br><br>
+        <button type="submit">上传图片</button>
+    </form>
+
+    <form action="/predict" method="post">
+        <button type="submit">发起识别</button>
+    </form>
+</body>
+</html>
