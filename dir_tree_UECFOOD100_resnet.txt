@@ -1,0 +1,3 @@
+UECFOOD100_resnet/
+    train/  
+    val/

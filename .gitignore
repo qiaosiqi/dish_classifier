@@ -19,26 +19,3 @@ env/
 *.iml
 *.ipr
 *.iws
-
-# 训练结果和模型权重
-runs/
-weights/
-best.pt
-last.pt
-
-# 数据文件（如果你不想上传大数据集）
-data/
-*.yaml
-
-# Mac系统文件
-.DS_Store
-
-# Windows系统文件
-Thumbs.db
-
-*.pt
-*.pth
-*.ckpt
-runs/
-__pycache__/
-.DS_Store

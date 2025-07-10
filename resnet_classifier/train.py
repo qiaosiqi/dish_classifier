@@ -86,7 +86,7 @@ def main():
 
     # 保存模型
     os.makedirs('resnet_classifier', exist_ok=True)
-    torch.save(model.state_dict(), 'resnet_classifier/model.pth')
+    torch.save(model.state_dict(), 'resnet_classifier/model2.pth')
     print("✅ 训练完成，模型已保存！")
 
 if __name__ == '__main__':
